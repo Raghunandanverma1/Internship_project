@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    html,body{
+     font-family: "Roboto","sans-serif";
+     font-weight: 300;
+     line-height: 1.4;
+     scroll-behavior: smooth;
+     /* padding:20px; */
+     font-style: italic;
+    }
+    button:hover{
+        cursor: pointer;
+        border-color: blue;
+        color: blue;
+        background-color: yellow;
+    }
+
+    header{
+        position:fixed;
+        width: 100%;
+    }
+    
+    .nav-container{
+        display: flex;
+        height: 80px;
+        padding: 5px;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 10px;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+    }
+
+    nav{
+        position:sticky;
+        top: 0;
+        border: 2px solid transparent;
+        z-index: 50;
+        box-shadow: 5px 5px 5px black;
+        background-color: white;
+    }
+
+    img{
+        width: 40px;
+        height: 30px;
+        font-weight: bolder;
+        border: 2px solid gray;
+    }
+
+    .logo-content{
+        font-size: 16px;
+        font-weight: bolder;
+        color: gray;
+    }
+
+    .logo-content h1 span{
+        color:blue ;
+    }
+
+    .logo-content h2{
+        font-size: 12px;
+    }
+
+    .search-box{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        width: 335px;
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .search-box input{
+        text-align: center;
+        width: 300px;
+        height: 40px;
+    }
+
+    .search-box i{
+        background-color: purple;
+        color: white;
+        padding: 10px;
+        width: 35px;
+        height: 40px;
+    }
+
+    .explore{
+        border: 2px solid rgb(184, 174, 174);
+        background-color: rgb(184, 174, 174);
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 25px;
+        gap: 5px;
+        margin-bottom: 10px;
+        color: purple;
+    }
+
+    .explore select{
+        border: none;
+        background-color: rgb(184, 174, 174);
+    }
+
+    .explore select option{
+        font-weight: bolder;
+    }
+
+
+    .hobbies{
+        border: 2px solid rgb(184, 174, 174);
+        background-color: rgb(184, 174, 174);
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 25px;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    .hobbies select{
+        border: none;
+        background-color: rgb(184, 174, 174);
+    }
+
+    .hobbies select option{
+        font-weight: bolder;
+    }
+
+    .bars{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: purple;
+    }
+
+    button{
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .search-box,.explore,.hobbies,.bars,.sign-in:hover{
+        cursor: pointer;
+    }
+
+    select:hover{
+        cursor: pointer;
+    }
+
+    .section1{
+        display: flex;
+        padding-top: 100px;
+        flex-direction: column;
+    }
+
+    .section1 h1{
+        font-size: 30px;
+        font-weight: 900;
+        margin-bottom: 30px;
+        padding-left: 100px;
+    }
+
+    .hobby{
+        color: blue;
+    }
+
+    .passion{
+        color: purple;
+    }
+
+    .section1 p{
+        font-weight: 700;
+        width: 600px;
+        margin-bottom: 40px;
+        text-align: justify;
+        padding-left: 100px;
+    }
+    
+    .section1 img{
+        width:100%;
+        height: 80vh;
+        margin-bottom: 100px;
+        padding-left: 200px;
+        border: none;
+    }
+
+    .section2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width:1200px;
+        gap: 50px;
+        padding-left: 300px;
+        background-color: white;
+        scroll-behavior: smooth;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid gray;
+        padding: 20px;
+        gap: 10px;
+        height: 250px;
+        width: 600px;
+        background-color: rgb(231, 219, 219);
+    }
+
+    .sec2-head{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .sec2-head i{
+        font-size: 25px;
+    }
+
+    #program{
+        color: blue;
+    }
+
+    #place{
+        color: green;
+    }
+
+    #people{
+        color: purple;
+    }
+
+    #product{
+        color: red;
+    }
+
+    .sec2-space{
+        display: flex;
+        gap: 40px;
+    }
+
+    .section3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1200px;
+        margin-top: 50px;
+        padding-left: 140px;
+        gap: 10px;
+        height: 200px;
+    }
+
+    i:hover{
+        cursor:pointer;
+    }
+
+    .sec3-card-content{
+        display: flex;
+       align-items: center;
+       gap: 10px;
+    }
+
+    .sec3-card-content i{
+        padding: 5px;
+        background-color: blue;
+        border-radius: 50%;
+        color: white;
+    }
+
+    .sec3-card{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border: 2px solid gray;
+        padding: 40px;
+        background-color: rgb(231, 219, 219);
+    }
+
+    .section4{
+        width: 1200px;
+        margin-top:100px;
+        padding-left: 140px;
+        gap: 20px;
+        margin-bottom: 100px;
+    }
+    .music{
+        display: flex;
+        flex-direction:column;
+       justify-content: center;
+       gap: 20px;
+       border: 2px solid gray;
+       padding: 20px;
+       background-color: rgb(231, 219, 219);
+    }
+
+    .music-content{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .music-content i{
+        color: white;
+        background-color: blue;
+        padding: 10px;
+        border-radius: 50%;
+
+    }
+
+    .music-set1{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+        background-color: gray;
+        padding: 5px;
+        border-radius: 20px;
+        width: 500px;
+    }
+
+    .music-set2{
+        display: flex;
+        justify-content:center;
+        width: 500px;
+        gap: 10px;
+        font-size: 14px;
+        color: blue;
+    }
+
+    .music-set2 img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .music-set1 img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .music-lower-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .music-lower-content audio{
+        
+    }
+
+    .sec4-content{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sec4-content button{
+        background-color:purple;
+        color: white;
+    }
+
+    .sec4-content span{
+        color: blue;
+    }
+
+    .sec4-content img{
+        width: 1300px;
+        height: 80vh;
+        border: none;
+    }
+
+    .footer-container{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 100%;
+        gap: 100px;
+
+    }
+
+    .footer-container div ul li{
+        list-style: none;
+        text-align: justify;
+    }
+
+    .footer-container div h3{
+        margin-bottom: 10px;
+    }
+
+    .social-media{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 18px;
+    }
+
+    .social-media ul{
+        display: flex;
+        gap: 10px;
+    }
+
+    .search-box button{
+        background-color: purple;
+        height: 45px;
+        padding: 10px;
+        border-radius: 0px;
+        border: none;
+    }
+
+    .social-media .search-box input{
+        margin-bottom: 8px;
+        height: 45px;
+    }
+
+    .main-footer{
+        height: 50px;
+        background-color: rgb(231, 219, 219) ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media screen and (max-width:800px){
+        .section2 .sec2-space{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .section1{
+           display: flex;
+           width: 1000px;
+        }
+    }
+
